@@ -71,16 +71,8 @@ a{
     background-color: #DD71C6;
 }
 
-.color-container {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 480px;
-    height: 100vh;
-    background-color: #FFD900;
-    border-top-left-radius: 50px;
-    z-index: -1;
-}
+/* MAIN */
+
 
 /* Countdown Section */
 
@@ -91,6 +83,17 @@ a{
     align-items: center;
     margin-bottom: 200px;
     gap: 20px;
+    }
+
+.color-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 480px;
+    height: 100%;
+    background-color: #FFD900;
+    border-top-left-radius: 50px;
+    z-index: -1;
     }
 
 
@@ -139,6 +142,7 @@ a{
     transition: .3s ease;
 }
 
+
 /* Countdown Container */
 
 .countdown-container{
@@ -181,6 +185,9 @@ a{
     font-weight: 500;
     margin-top: 50px;
 }
+
+
+
 
 /* Stadistics Section */
 
@@ -243,6 +250,8 @@ a{
     transition: .3s ease;
 }
 
+
+
 /* Section About Us */
 
 .about_us-section{
@@ -300,6 +309,7 @@ a{
     height: 593px;
     margin: 0 220px 30px 0;
 }
+
 
 /* How Can We Help You Section */
 
@@ -442,6 +452,7 @@ a{
     transition: .3s ease;
 }
 
+
 /* FQA Section */
 
 .fqa-section{
@@ -495,7 +506,8 @@ a{
     transition: all 0.2s linear;
 }
 
-/* Footer */
+
+/* FOOTER */
 
 footer{
     background-color: #F9F9F9;
@@ -604,12 +616,10 @@ footer{
 
 
 
-
-
-
 /* Mobile */
 
 @media(max-width:768px){
+
 
     .burger{
         display: block;
@@ -645,4 +655,9 @@ footer{
     .nav-menu.active{
         left: 0;
     }
+
 }
+
+
+
+
