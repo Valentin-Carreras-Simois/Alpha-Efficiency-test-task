@@ -345,7 +345,7 @@ a{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     background-color: #DD71C6;
-    margin: 30px 0 50px 0;
+    margin: 30px 0 30px 0;
     padding: 10px;
     border-style: none;
     color: #fff;
@@ -358,7 +358,8 @@ a{
 }
 
 .help-article img{
-    width: 1551px;
+    width: 1300px;
+    height: 433.35px;
 }
 
 
@@ -639,7 +640,6 @@ footer{
 
     .nav-menu{
         position: fixed;
-        left: -100%;
         top: 150px;
         gap:0;
         flex-direction: column;
