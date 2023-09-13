@@ -1787,15 +1787,16 @@ footer{
     }
 
     .countdown-paragraph{
-        font-size: 1.8rem;
+        font-size: 2rem;
         margin: 0 0 1rem 3rem;
         padding: 0 2rem;
     }
     
     .countdown-paragraph p {
-        width: 70%;
+        width: 60%;
         padding: 0 3rem;
         margin-left: 15rem;
+        line-height: 2.5rem;
     }
     
     .countdown-container{
@@ -1804,7 +1805,7 @@ footer{
     
     .countdown-container h2{
         font-size: 1.8rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
         margin-bottom: 3rem;
     }
 
@@ -1821,6 +1822,8 @@ footer{
     
     .countdown-button{
         margin-left: 20rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
 }
